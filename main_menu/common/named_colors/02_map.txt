@@ -1,0 +1,224 @@
+colors = {
+    map_debug = rgb { 255 0 255 }
+
+    # Reikbasin
+    map_reikland = rgb { 144 10 10}
+    map_stirland = rgb { 51 71 243 }
+    map_averland = rgb { 175 223 62 }
+    map_hochland = rgb { 29 82 6 }
+    map_wasteland = rgb { 198 106 226 }
+    map_nordland = rgb { 197 190 199 }
+    map_solland = rgb { 229 127 37 }
+    map_wissenland = rgb { 95 229 37 }
+    map_ostermark = rgb { 77 232 238 }
+    map_talabecland = rgb { 141 80 54 }
+    map_middenland = rgb { 153 173 238 }
+    map_drakwald = rgb { 135 11 44 }
+    map_ostland = rgb { 128 0 255 }
+    map_gazani = rgb { 65 61 62}
+    map_imperialhalfling = rgb { 255 223 196}
+    map_imperialogre = rgb { 34 139 34}
+    map_mootish = rgb { 210 180 140}
+    map_mootogre = rgb { 85 107 47}
+    map_eonir = rgb { 176 224 230}
+
+
+    #northern old world
+    map_ungol = rgb { 34 34 34 }
+    map_roppsmen = rgb { 200 200 200 }
+    map_norsii = rgb { 0 102 204 }
+
+    #religions
+    religion_oldworld = rgb { 200 100 50 }
+    religion_elven = rgb { 100 200 100 }
+    religion_nehekharan = rgb { 200 200 50 }
+    religion_ancestors = rgb { 150 75 0 }
+    religion_cathay = rgb { 50 150 200 }
+    religion_hashut = rgb { 100 50 0 }
+    religion_chaos = rgb { 150 0 150 }
+    religion_oldones = rgb { 0 150 150 }
+
+    #eu4 color codes for terrain
+    terrain_tundra = rgb { 200 200 245 }
+    terrain_glacier = rgb { 235 235 235 }
+    terrain_farmlands = rgb { 0 255 0 }
+    terrain_taiga = rgb { 5 44 10 }
+    terrain_forest = rgb { 18 74 9 }
+    terrain_hills = hsv360 { 43 88 69 }
+    terrain_woods = rgb { 41 155 22 }
+    terrain_mountain = hsv360 { 12 96 41 }
+    terrain_grasslands = rgb { 90 235 27 }
+    terrain_jungle = rgb { 8 41 3 }
+    terrain_marsh = hsv360 { 151 56 65 }
+    terrain_desert = rgb { 242 242 111 }
+    terrain_coastal_desert = rgb { 255 211 110 }
+    terrain_coastline = rgb { 49 175 191 }
+    terrain_drylands = rgb { 232 172 102 }
+    terrain_plateau = hsv360 { 82 87 81 }
+    terrain_savannah = rgb { 248 199 23 }
+    terrain_steppe = rgb { 147 200 83 }
+    terrain_dune_wasteland = rgb { 171 171 63 }
+    terrain_rock_wasteland = rgb { 141 117 61 }
+    terrain_mesa_wasteland = rgb { 141 105 61 }
+    terrain_plateau_wasteland = rgb { 195 195 195 }
+    terrain_mountain_wasteland = rgb { 73 14 0 }
+    terrain_hills_wasteland = rgb { 93 146 121}
+    terrain_ocean_wasteland = rgb { 0 11 131}
+    terrain_marsh_wasteland = rgb { 0 159 100}
+
+    #sea
+    terrain_narrows = hsv360 { 196 63 86 }
+    terrain_inland_sea = hsv360 { 204 69 84 }
+    terrain_coastal_ocean = hsv360 { 212 71 73 }
+    terrain_ocean = hsv360 { 225 71 57 }
+    terrain_deep_ocean = hsv360 { 243 76 45 }
+    terrain_lakes = hsv360 { 195 80 100 }
+    terrain_high_lakes = hsv360 { 195 80 100 }
+    terrain_salt_pans = rgb { 141 130 61 }
+    terrain_atoll = hsv360 { 195 70 100 }
+
+    climate_arctic = rgb { 153 206 203}
+    climate_continental = hsv360 {126 57 62}
+    climate_mediterranean = rgb { 198 255 78 }
+    climate_tropical = rgb { 14 58 9 }
+    climate_subtropical = rgb { 18 98 34 }
+    climate_arid = rgb { 167 117 58 }
+    climate_cold_arid = hsv360 { 49 35 71 }
+    climate_oceanic = rgb { 102 255 51 }
+
+    # ranks
+
+    color_rank_empire = hsv360 { 259 86 85 }
+    color_rank_kingdom = hsv360 { 40 78 75 }
+    color_rank_duchy = hsv360 { 215 35 30 } # Mordor Silver
+    color_rank_county = hsv360 { 9 78 63 }
+
+
+    #eu4 colors for goods
+    goods_wine = rgb { 0.36 0.13 0.28 }
+    goods_wool = hsv360 { 180 10 60 }
+    goods_cloth = rgb { 0.86 0.19 0.19 }
+    goods_fur = rgb { 0.54 0.40 0.31 }
+    goods_salt = rgb { 0.999 0.999 0.999 }
+    goods_naval_supplies = rgb { 0.11 0.17 0.4 }
+    goods_copper = hsv360 { 20 60 85 }
+    goods_gold = rgb { 1.0 0.84 0.19 }
+    goods_iron = rgb { 0.2 0.2 0.2 }
+    goods_ivory = rgb { 0.75 0.7 0.63 }
+    goods_tea = rgb { 0.07 0.33 0.09 }
+    goods_porcelain = rgb { 0.18 0.57 0.8 }
+    goods_coffee = rgb { 0.22 0.15 0.09 }
+    goods_cotton = rgb { 0.52 0.68 0.6 }
+    goods_sugar = rgb { 0.74 0.95 0.68 }
+    goods_tobacco = rgb { 0.33 0.56 0.38 }
+    goods_cocoa = rgb { 0.45 0.21 0.09 }
+    goods_silk = rgb { 0.72 0.10 0.10 }
+    goods_dyes = rgb { 0.63 0.17 0.50 }
+    goods_lumber = rgb { 0.45 0.47 0.09 }
+    goods_incense = rgb { 0.89 0.79 0.47 }
+    goods_glass = rgb { 0.0 0.60 0.45 }
+    goods_paper = rgb { 0.9 0.86 0.71 }
+    goods_gems = hsv360 { 158 100 73 }
+    goods_coal = hsv { 0 0 0.12 }
+    goods_slaves = rgb { 0.0 0.0 0.0 }
+
+    # just made up colors
+    goods_silver = rgb { 192 192 192 }
+    goods_stone = hsv { 0.6 0.2 0.3 }
+    goods_tin = hsv { 0.0 0.0 0.3 }
+    goods_lead = hsv { 0.67 0.8 0.9 }
+    goods_fiber_crops = hsv { 0.38 0.8 0.3 }
+    goods_firearms = hsv { 0.88 0.3 1 }
+    goods_cannons = hsv { 0.78 0.4 1 }
+    goods_steel = hsv { 0.6 0.3 0.2 }
+    goods_liquor = hsv { 0.9 0.8 0.2 }
+    goods_beer = hsv { 0.7 0.82 0.25 }
+    goods_jewelry = hsv { 0.085 0.95 1 }
+    goods_leather = hsv { 0.05 0.35 0.15 }
+    goods_tools = hsv { 0.62 0.3 0.08 }
+    goods_clay = rgb { 190 70 70 }
+    goods_sand = rgb { 242 242 111 }
+    goods_tar = hsv { 0 0 0.16 }
+    goods_subst = hsv { 0.15 0.69 0.6 }
+    goods_wild_game = hsv { 0.15 0.58 0.87 }
+    goods_fish = hsv { 0.49 0.59 0.47 }
+    goods_wheat = hsv { 0.16 0.91 0.83 }
+    goods_maize = hsv360 { 40 90 80 }
+    goods_rice = hsv { 0.26 0.39 0.5 }
+    goods_millet = hsv { 0.28 0.60 0.40 }
+    goods_legumes = hsv { 0.46 0.7 0.59 }
+    goods_potato = rgb { 255 174 106 }
+    goods_livestock = hsv { 0.23 0.93 0.58 }
+    goods_olives = rgb { 72 102 0 }
+    goods_fruit = rgb { 242 63 63 }
+
+    goods_medicaments = rgb { 255 127 127 }
+    goods_pearls = rgb { 234 224 200 }
+    goods_amber = rgb { 255 191 0 }
+    goods_saltpeter = rgb { 150 75 0 }
+    goods_horses = rgb { 159 129 112 }
+    goods_weaponry = rgb { 202 204 206 }
+    goods_fine_cloth = rgb { 183 169 155 }
+    goods_books = hsv { 0.91 0.81 0.63 }
+    goods_lacquerware = rgb { 152 0 24 }
+    goods_alum = rgb { 123 50 45 }
+    goods_elephants = rgb { 210 106 47 }
+    goods_marble = rgb { 0.97 0.90 0.97 }
+    goods_mercury = rgb { 224 59 80 }
+    goods_masonry = hsv360 {	26	70	25	}
+
+    goods_beeswax = hsv360 { 37 82 80 }
+    goods_saffron = hsv360 { 22 86 75 }
+    goods_pepper = rgb { 173 192 192 }
+    goods_chili = hsv360 { 10 87 75 }
+    goods_cloves = hsv360 { 110 87 75 }
+    goods_pottery = rgb { 160 192 192 }
+    goods_furniture = rgb { 130 192 192 }
+
+    #SUBJECT TYPES
+    subject_vassal = rgb { 51 204 204 }
+    subject_fiefdom = rgb { 204 153 255 }
+    subject_appanage = rgb { 0 153 255 } #blue
+    subject_colonial_nation = rgb { 77 203 161 }
+    subject_conquistador = rgb { 255 102 102 } #red
+    subject_dominion = rgb { 153 51 0 }
+    subject_hanseatic_member = rgb { 138 56 64 }
+    subject_imperial_free_city = hsv { 0.3 0.81 0.9 } #lime
+    subject_direct_imperial_free_city = hsv { 0.5 0.81 0.9 } #darker lime
+    subject_march = rgb { 114 115 43 }
+    subject_samanta = rgb { 255 153 51 }
+    subject_maha_samanta = rgb { 255 122 51 }
+    subject_pradhana_maha_samanta = rgb { 255 130 47 }
+    subject_state_bank = rgb { 89 24 154 }
+    subject_trade_company = rgb { 148 90 206 }
+    subject_tributary = rgb { 255 204 0 }
+    subject_tusi = rgb { 255 160 0 }
+
+    # pop colors
+    pop_nobles = hsv360 { 224 59 80 }
+    pop_clergy = hsv360 { 217 13 90 }
+    pop_burghers = hsv360 { 40 87 79 }
+    pop_laborers = hsv { 0.6 0.3 0.2 }
+    pop_peasants = hsv360 { 78 44 47 }
+    pop_soldiers = hsv360 { 0 74 88 }
+    pop_slaves = hsv360 { 230 0 36 }
+    pop_tribes = hsv360 {	20 44 47	}
+
+    estate_crown = hsv360 { 275 55 80 }
+    estate_dhimmi = rgb { 217 13 90 }
+
+    # government colors
+    gov_monarchy = rgb { 65 105 225 }
+    gov_theocracy = rgb { 220 220 220 }
+    gov_republic = rgb { 190 70 70 }
+    gov_steppe_horde = hsv360 { 79 69 58 }
+    gov_tribe = hsv360 { 26	70	25 }
+
+    # road types
+    map_gravel_road = hsv360 { 9 78 63 }
+    map_paved_road = hsv360 { 218 50 90 }
+    map_modern_road = hsv360 { 40 78 75 }
+    map_railroad = hsv360 { 259 86 85 }
+
+
+}

@@ -1,0 +1,44 @@
+old_world_cults = {
+    color = religion_oldworld
+    allow_slaves_of_same_group = no
+    convert_slaves_at_start = no
+}
+
+elven_cults = {
+    color = religion_elven
+    convert_slaves_at_start = no
+}
+
+nehekharan_pantheon = {
+    color = religion_nehekharan
+    allow_slaves_of_same_group = no
+    convert_slaves_at_start = yes
+    modifier = {
+        allow_rgo_slave_demand = yes
+    }
+}
+
+ancestor_worship = {
+    color = religion_ancestors
+    convert_slaves_at_start = no
+}
+
+anti_theistic = {
+    color = religion_cathay
+    convert_slaves_at_start = no
+}
+
+cult_of_hashut = {
+    color = religion_hashut
+    convert_slaves_at_start = no
+}
+
+chaos_cults = {
+    color = religion_chaos
+    convert_slaves_at_start = no
+}
+
+lizardmen_group = {
+    color = religion_oldones
+    convert_slaves_at_start = no
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="heightmaps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/in_game/gfx/terrain2/decals/heightmaps.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

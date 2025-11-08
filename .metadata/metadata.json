@@ -1,0 +1,18 @@
+{
+	"name" : "The Fated Place",
+	"id" : "fatedplace",
+	"version" : "",
+    "game_id" : "eu5",
+	"supported_game_version" : "",
+	"short_description" : "Unofficial fanmade warhammer fantasy mod",
+	"tags" : [],
+	"picture" : "thumbnail.png",
+	"relationships" : [],
+	"game_custom_data" : {
+		"multiplayer_synchronized" : true,
+		"replace_paths" : [
+			"common/holy_sites",
+			"setup/countries"
+		]
+	}
+}

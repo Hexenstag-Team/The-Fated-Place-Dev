@@ -1,0 +1,7 @@
+﻿l_english:
+ # Cultural Templates
+ #
+ #
+ NEW_CULTURE_NAME_ADJ_OLD_CULTURE: "$COUNTRY_ADJ$ $OLD_CULTURE_NAME$" #for naming possible new cultures. COUNTRY_NAME is also available
+
+ taleuten: "Taleuten"

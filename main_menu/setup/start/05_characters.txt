@@ -1,0 +1,21 @@
+# #Remember to write sons and daughters ALWAYS after their parents to avoid crashes
+
+character_db={
+
+
+
+    ottilia = {
+        first_name = { name = name_ottilia }
+        culture = taleuten
+        religion = sigmarian_heresy
+        estate = nobles_estate
+        adm = 78 dip = 65 mil = 85
+        female = yes
+        birth_date = 1298.12.12
+        birth = testprovince1
+        dynasty = ottilian_dynasty
+        fertility = 95
+        tag = OTT
+        ruler_trait = lawgiver
+    }
+}

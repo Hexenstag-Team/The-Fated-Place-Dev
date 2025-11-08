@@ -1,0 +1,13 @@
+dynasty_manager = {
+
+
+
+    ottilian_dynasty = {
+        name = { name = ottilian_dynasty }
+        home = testprovince1
+        dynasty_name_type = descendant
+        female_names = {name_ottilia}
+
+    }
+
+}

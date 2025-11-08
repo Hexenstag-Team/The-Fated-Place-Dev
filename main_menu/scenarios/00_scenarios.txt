@@ -1,0 +1,5 @@
+﻿TAL_scenario = {
+	country = TAL
+	player_playstyle = EXPANSIVE
+	player_proficiency = EXPERIENCED
+}
